@@ -9,7 +9,7 @@ No per-run cost. No platform lock-in. Just markdown.
 **Option A — clone everything:**
 
 ```bash
-git clone https://github.com/akasi-labs/skills.git ~/akasi-skills && \
+git clone https://github.com/Dlove7777/skills.git ~/akasi-skills && \
   cp -r ~/akasi-skills/akasi-* ~/.claude/skills/
 ```
 
@@ -18,7 +18,7 @@ Restart Claude. All 9 skills load on next session.
 **Option B — grab one skill:**
 
 ```bash
-git clone --depth 1 https://github.com/akasi-labs/skills.git /tmp/akasi && \
+git clone --depth 1 https://github.com/Dlove7777/skills.git /tmp/akasi && \
   cp -r /tmp/akasi/akasi-tldr ~/.claude/skills/
 ```
 
